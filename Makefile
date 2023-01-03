@@ -7,8 +7,8 @@ install: # Install programs
 build: # build
 	poetry build
 
-publish: #
+publish: # Публикация репозитория
 	poetry publish --dry-run
 
 package-install: # package-install
-	python3 -m pip install --user dist/*.whl.
+	python3 -m pip install --user dist/*.whl
