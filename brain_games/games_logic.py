@@ -1,20 +1,19 @@
 from brain_games.cli import welcome_user
-from brain_games.scripts.brain_even import even
+import prompt
 
 
 def games_start(game):
+
+    name = welcome_user()
     count = 0
     correct_count = 0
-    name = welcome_user()
-
     print(game.SPECIFICATION)
 
     while count < 3:
         count += 1
-        num = num_random()
-        answer = prompt.string(f'Question: {num} ')
+        question, correct_answer = game.num_random()
+        answer = prompt.string(f'Question: {question} ')
         print(f'Your answer: {answer}')
-        correct_answer = even(num)
 
         if answer == correct_answer:
             correct_count += 1
@@ -23,7 +22,5 @@ def games_start(game):
             print(f"'{answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'. "
                   f"Let's try again, {name}!")
-
-    print('Congratulations, ', name + '!')
-
-
+    if correct_count == 3:
+        print('Congratulations, ', name + '!')
