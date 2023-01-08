@@ -39,8 +39,8 @@ def main():  # Основная функция игры
             print(f"'{answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'. "
                   f"Let's try again, {name}!")
-    if correct_count == 3:
-        print('Congratulations, ', name + '!')
+
+    print('Congratulations, ', name + '!')
 
 
 if __name__ == '__main__':
