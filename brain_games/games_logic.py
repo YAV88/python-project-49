@@ -24,3 +24,6 @@ def games_start(game):
                   f"Let's try again, {name}!")
     if correct_count == 3:
         print('Congratulations, ', name + '!')
+    else:
+        print('You have made a mistake. =( '
+              'Try again!')
