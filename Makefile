@@ -1,9 +1,13 @@
-brain-games: # Запустить программу brain-games
+brain-games: # Run brain-games
 	poetry run brain-games
 
 
-brain-even: # Запустить программу brain-games
+brain-even: # Run game 'Even'
 	poetry run brain-even
+
+
+brain-calc: # Run game 'Calc'
+	poetry run brain-calc
 
 
 install: # Install programs
@@ -14,7 +18,7 @@ build: # build
 	poetry build
 
 
-publish: # Публикация репозитория
+publish: # Run publish
 	poetry publish --dry-run
 
 
