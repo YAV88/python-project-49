@@ -2,12 +2,16 @@ brain-games: # Run brain-games
 	poetry run brain-games
 
 
-brain-even: # Run game 'Even'
+brain-even: # Run game 'The Even'
 	poetry run brain-even
 
 
-brain-calc: # Run game 'Calc'
+brain-calc: # Run game 'Calculate'
 	poetry run brain-calc
+
+
+brain-gcd: # Run game 'GCD'
+	poetry run brain-gcd
 
 
 install: # Install programs
