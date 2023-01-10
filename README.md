@@ -6,3 +6,5 @@
 https://asciinema.org/a/H8MfLQiwrnrt4XwvdjeKHZS2v   # Rec game brain-even
 
 https://asciinema.org/a/VtY20KQwA7gGXyCdzZ0U5492M   # Rec game brain-calc
+
+https://asciinema.org/a/JriMDlLhS27nwOe0NV7wbDE7D   # Rec game brain-gcd
