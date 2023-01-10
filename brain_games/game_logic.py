@@ -25,5 +25,4 @@ def game_start(game):
     if correct_count == 3:
         print('Congratulations, ', name + '!')
     else:
-        print('You have made a mistake. =( '
-              'Try again!')
+        print('You have made a mistake.')
