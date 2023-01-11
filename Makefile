@@ -14,6 +14,10 @@ brain-gcd: # Run game 'GCD'
 	poetry run brain-gcd
 
 
+brain-progression: # Run game 'Arithmetic progression'
+	poetry run brain-progression
+
+
 install: # Install programs
 	poetry install
 
