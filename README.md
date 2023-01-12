@@ -10,3 +10,5 @@ https://asciinema.org/a/VtY20KQwA7gGXyCdzZ0U5492M   # Rec game brain-calc
 https://asciinema.org/a/JriMDlLhS27nwOe0NV7wbDE7D   # Rec game brain-gcd
 
 https://asciinema.org/a/6I2GOETN7AG4PcR57W15tdyvj   # Rec game brain-progression
+
+https://asciinema.org/a/JPEuyLUEJDWjEd310Q3rztD2Q   # Rec game brain-prime
