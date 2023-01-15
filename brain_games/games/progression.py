@@ -1,6 +1,6 @@
 from random import randint
 
-SPECIFICATION = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 MIN_NUMBER = 1  # Min step
 MAX_NUMBER = 5  # Max step
 START_NUMBER = randint(1, 20)  # Initial number

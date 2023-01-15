@@ -13,7 +13,7 @@ def start_game(game):
     name = welcome_user()
     count = 0
 
-    print(game.SPECIFICATION)
+    print(game.DESCRIPTION)
 
     while count < 3:
         count += 1

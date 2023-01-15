@@ -1,6 +1,6 @@
 from random import randint
 
-SPECIFICATION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 MIN_NUMBER = 1      # Min number
 MAX_NUMBER = 100    # Max number
 
