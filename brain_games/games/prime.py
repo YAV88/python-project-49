@@ -6,13 +6,13 @@ MAX_NUMBER = 100    # Max number
 
 
 def is_prime(num):
-    d = 2
-    while num % d != 0:
-        d += 1
-    return d == num
+    divider = 2
+    while num % divider != 0:
+        divider += 1
+    return divider == num
 
 
 def num_random():
     num = randint(MIN_NUMBER, MAX_NUMBER)
     correct_answer = 'yes' if is_prime(num) else 'no'
-    return num, correct_answer
+    return num, str(correct_answer)
