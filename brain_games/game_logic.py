@@ -31,4 +31,4 @@ def start_game(game):
                   f"Correct answer was '{correct_answer}'. "
                   f"Let's try again, {name}!")
     if count_rounds == ROUNDS:
-        print('Congratulations, ', name + '!')
+        print('Congratulations,', name + '!')
