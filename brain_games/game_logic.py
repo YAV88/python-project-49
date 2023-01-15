@@ -1,6 +1,9 @@
 import prompt
 
 
+ROUNDS = 3
+
+
 def welcome_user():
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
@@ -11,12 +14,12 @@ def welcome_user():
 def start_game(game):
 
     name = welcome_user()
-    rounds = 0
+    count_rounds = 0
 
     print(game.DESCRIPTION)
 
-    while rounds < 3:
-        rounds += 1
+    while count_rounds < ROUNDS:
+        count_rounds += 1
         question, correct_answer = game.num_random()
         answer = prompt.string(f'Question: {question} ')
         print(f'Your answer: {answer}')
@@ -27,5 +30,5 @@ def start_game(game):
             print(f"'{answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'. "
                   f"Let's try again, {name}!")
-    if rounds == 3:
+    if count_rounds == ROUNDS:
         print('Congratulations, ', name + '!')
