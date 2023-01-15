@@ -8,7 +8,7 @@ def welcome_user():
     return name
 
 
-def game_start(game):
+def start_game(game):
 
     name = welcome_user()
     count = 0
