@@ -12,7 +12,7 @@ def game_start(game):
 
     name = welcome_user()
     count = 0
-    correct_count = 0
+
     print(game.SPECIFICATION)
 
     while count < 3:
@@ -22,13 +22,10 @@ def game_start(game):
         print(f'Your answer: {answer}')
 
         if answer == correct_answer:
-            correct_count += 1
             print('Correct!')
         else:
             print(f"'{answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'. "
                   f"Let's try again, {name}!")
-    if correct_count == 3:
+    if count == 3:
         print('Congratulations, ', name + '!')
-    else:
-        print('You have made a mistake.')

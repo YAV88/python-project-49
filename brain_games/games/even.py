@@ -12,4 +12,4 @@ def even(num):                      # Parity check
 def num_random():                   # Random number
     num = randint(MIN_NUMBER, MAX_NUMBER)
     correct_answer = 'yes' if even(num) else 'no'
-    return num, correct_answer
+    return num, str(correct_answer)
