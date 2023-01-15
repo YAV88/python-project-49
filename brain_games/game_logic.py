@@ -11,12 +11,12 @@ def welcome_user():
 def start_game(game):
 
     name = welcome_user()
-    count = 0
+    rounds = 0
 
     print(game.DESCRIPTION)
 
-    while count < 3:
-        count += 1
+    while rounds < 3:
+        rounds += 1
         question, correct_answer = game.num_random()
         answer = prompt.string(f'Question: {question} ')
         print(f'Your answer: {answer}')
@@ -27,5 +27,5 @@ def start_game(game):
             print(f"'{answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'. "
                   f"Let's try again, {name}!")
-    if count == 3:
+    if rounds == 3:
         print('Congratulations, ', name + '!')
