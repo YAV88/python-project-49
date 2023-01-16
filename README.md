@@ -6,20 +6,20 @@
 
 ## Minimum requirement 
 
-_Python 3.10_
+> _Python 3.10_
 
 ## Installing
 
-_To install use: **make install**_
+> _To install use: **make install**_
 
-_To build use: **make build**_
+> _To build use: **make build**_
 
-_To package install use: **make package-install**_
+> _To package install use: **make package-install**_
 
 
 ## Project description
 
- *The package with 5 short brain games*
+> _The package with 5 short brain games_
 
 
 ## Asciinema:
