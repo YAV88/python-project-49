@@ -4,7 +4,11 @@
 # Brain-games
 
 
-## *Installing*
+## Minimum requirement: 
+
+_Python 3.10_
+
+## *Installing:*
 
 _To install use: **make install**_
 
