@@ -6,35 +6,35 @@
 
 ## *Installing*
 
-### *To install use: **make install***
+_To install use: **make install**_
 
-### *To build use: **make build***
+_To build use: **make build**_
 
-### *To package install use: **make package-install***
+_To package install use: **make package-install**_
 
 
 ## Project description
 
-### The package with 5 short brain games
+ *The package with 5 short brain games*
 
 
 ## Asciinema:
 
 ### Rec game brain-even
 
-    <a href="https://asciinema.org/a/oxx2u0rGZ2BgeEdLOytlL8BYZ" target="_blank"><img src="https://asciinema.org/a/oxx2u0rGZ2BgeEdLOytlL8BYZ.svg" /></a>
+[![asciicast](https://asciinema.org/a/oxx2u0rGZ2BgeEdLOytlL8BYZ.svg)](https://asciinema.org/a/oxx2u0rGZ2BgeEdLOytlL8BYZ)
 
 ### Rec game brain-calc
 
-    <a href="https://asciinema.org/a/OawMGVywxWMuGPxEHmmt0pID5" target="_blank"><img src="https://asciinema.org/a/OawMGVywxWMuGPxEHmmt0pID5.svg" /></a>
+[![asciicast](https://asciinema.org/a/OawMGVywxWMuGPxEHmmt0pID5.svg)](https://asciinema.org/a/OawMGVywxWMuGPxEHmmt0pID5)
 
 ### Rec game brain-gcd
 
-    <a href="https://asciinema.org/a/EC0fyG4QnQY9ZTRPW7aqkspZ4" target="_blank"><img src="https://asciinema.org/a/EC0fyG4QnQY9ZTRPW7aqkspZ4.svg" /></a>
+[![asciicast](https://asciinema.org/a/EC0fyG4QnQY9ZTRPW7aqkspZ4.svg)](https://asciinema.org/a/EC0fyG4QnQY9ZTRPW7aqkspZ4)
 
 ### Rec game brain-prime
 
-    <a href="https://asciinema.org/a/Mdy2YWQhWx2q2AZQRW62JC5Ma" target="_blank"><img src="https://asciinema.org/a/Mdy2YWQhWx2q2AZQRW62JC5Ma.svg" /></a>
+[![asciicast](https://asciinema.org/a/Mdy2YWQhWx2q2AZQRW62JC5Ma.svg)](https://asciinema.org/a/Mdy2YWQhWx2q2AZQRW62JC5Ma)
 
 ### Rec game brain-progression
 
