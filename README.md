@@ -7,10 +7,15 @@
 ## Project description
 
 > _The project consists of 5 logical mini-games, which are built on the principle of "question - answer"._
+
 > _Brain-even - even number definition_
+
 > _Brain-calc - evaluation of arithmetic expressions_
+
 > _Brain-gcd - determination of the greatest common divisor_
+
 > _Brain-prime - prime number definition_
+
 > _Brain-progression - determining the progression of numbers in their sequence_
 
 ## Minimum requirement 
