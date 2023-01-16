@@ -12,7 +12,7 @@ def is_prime(num):
     return divider == num
 
 
-def num_random():
+def game_number_generation():
     num = randint(MIN_NUMBER, MAX_NUMBER)
     correct_answer = 'yes' if is_prime(num) else 'no'
     return num, str(correct_answer)

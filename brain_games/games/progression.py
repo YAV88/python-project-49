@@ -14,7 +14,7 @@ def progression_generation(num_1, num_2, num_3):
     return progression
 
 
-def num_random():
+def game_number_generation():
     step = randint(MIN_NUMBER, MAX_NUMBER)
     progression = progression_generation(START_NUMBER, STOP_NUMBER, step)
     index = randint(0, len(progression) - 1)

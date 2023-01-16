@@ -7,7 +7,7 @@ MIN_NUMBER = 1
 MAX_NUMBER = 20
 
 
-def num_random():
+def game_number_generation():
     num_one = randint(MIN_NUMBER, MAX_NUMBER)
     num_two = randint(MIN_NUMBER, MAX_NUMBER)
     question = f'{num_one} {num_two}'

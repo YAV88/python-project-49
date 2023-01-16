@@ -9,7 +9,7 @@ def is_even(num):                      # Parity check
     return num % 2 == 0
 
 
-def num_random():                   # Random number
+def game_number_generation():                   # Random number
     num = randint(MIN_NUMBER, MAX_NUMBER)
     correct_answer = 'yes' if is_even(num) else 'no'
     return num, str(correct_answer)

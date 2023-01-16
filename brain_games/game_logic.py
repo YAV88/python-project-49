@@ -20,7 +20,7 @@ def start_game(game):
 
     while count_rounds < ROUNDS:
         count_rounds += 1
-        question, correct_answer = game.num_random()
+        question, correct_answer = game.game_number_generation()
         answer = prompt.string(f'Question: {question} ')
         print(f'Your answer: {answer}')
 
@@ -32,5 +32,4 @@ def start_game(game):
                   f"Let's try again, {name}!")
             return
 
-    if count_rounds == ROUNDS:
         print('Congratulations,', name + '!')
