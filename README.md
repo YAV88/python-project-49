@@ -1,25 +1,41 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/YAV88/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/YAV88/python-project-49/actions)
 
+# Brain-games
 
-### Asciinema:
 
-# Rec game brain-even
+## *Installing*
 
-<a href="https://asciinema.org/a/H8MfLQiwrnrt4XwvdjeKHZS2v" target="_blank"><img src="https://asciinema.org/a/H8MfLQiwrnrt4XwvdjeKHZS2v.svg" /></a>   
+### *To install use: **make install***
 
-# Rec game brain-calc
+### *To build use: **make build***
 
-<a href="https://asciinema.org/a/VtY20KQwA7gGXyCdzZ0U5492M" target="_blank"><img src="https://asciinema.org/a/VtY20KQwA7gGXyCdzZ0U5492M.svg" /></a>  
+### *To package install use: **make package-install***
 
-# Rec game brain-gcd
 
-<a href="https://asciinema.org/a/JriMDlLhS27nwOe0NV7wbDE7D" target="_blank"><img src="https://asciinema.org/a/JriMDlLhS27nwOe0NV7wbDE7D.svg" /></a>  
+## Project description
 
-# Rec game brain-progression
+### The package with 5 short brain games
 
-<a href="https://asciinema.org/a/6I2GOETN7AG4PcR57W15tdyvj" target="_blank"><img src="https://asciinema.org/a/6I2GOETN7AG4PcR57W15tdyvj.svg" /></a> 
 
-# Rec game brain-prime
+## Asciinema:
 
-<a href="https://asciinema.org/a/JPEuyLUEJDWjEd310Q3rztD2Q" target="_blank"><img src="https://asciinema.org/a/JPEuyLUEJDWjEd310Q3rztD2Q.svg" /></a>  
+### Rec game brain-even
+
+    <a href="https://asciinema.org/a/oxx2u0rGZ2BgeEdLOytlL8BYZ" target="_blank"><img src="https://asciinema.org/a/oxx2u0rGZ2BgeEdLOytlL8BYZ.svg" /></a>
+
+### Rec game brain-calc
+
+    <a href="https://asciinema.org/a/OawMGVywxWMuGPxEHmmt0pID5" target="_blank"><img src="https://asciinema.org/a/OawMGVywxWMuGPxEHmmt0pID5.svg" /></a>
+
+### Rec game brain-gcd
+
+    <a href="https://asciinema.org/a/EC0fyG4QnQY9ZTRPW7aqkspZ4" target="_blank"><img src="https://asciinema.org/a/EC0fyG4QnQY9ZTRPW7aqkspZ4.svg" /></a>
+
+### Rec game brain-prime
+
+    <a href="https://asciinema.org/a/Mdy2YWQhWx2q2AZQRW62JC5Ma" target="_blank"><img src="https://asciinema.org/a/Mdy2YWQhWx2q2AZQRW62JC5Ma.svg" /></a>
+
+### Rec game brain-progression
+
+[![asciicast](https://asciinema.org/a/FsVEy2vm1NgvszOkPe0x4x2xG.svg)](https://asciinema.org/a/FsVEy2vm1NgvszOkPe0x4x2xG)
