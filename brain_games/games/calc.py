@@ -10,11 +10,13 @@ OPERATORS = ['+', '-', '*']
 def calculate(num_one, num_two, sign):
     if sign == '+':
         correct_answer = num_one + num_two
+        return correct_answer
     elif sign == '-':
         correct_answer = num_one - num_two
-    else:
+        return correct_answer
+    elif sign == '*':
         correct_answer = num_one * num_two
-    return correct_answer
+        return correct_answer
 
 
 def game_number_generation():
