@@ -1,7 +1,7 @@
 import prompt
 
 
-ROUNDS = 3
+MAX_ROUNDS = 3
 
 
 def start_game(game):
@@ -11,7 +11,7 @@ def start_game(game):
     count_rounds = 0
     print(game.DESCRIPTION)
 
-    while count_rounds < ROUNDS:
+    while count_rounds < MAX_ROUNDS:
         count_rounds += 1
         question, correct_answer = game.game_number_generation()
         answer = prompt.string(f'Question: {question} ')
