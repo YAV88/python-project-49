@@ -8,15 +8,15 @@
 
 > _The project consists of 5 logical mini-games, which are built on the principle of "question - answer"._
 
-> _Brain-even - even number definition_
+> _**brain-even** - even number definition_
 
-> _Brain-calc - evaluation of arithmetic expressions_
+> _**brain-calc** - evaluation of arithmetic expressions_
 
-> _Brain-gcd - determination of the greatest common divisor_
+> _**brain-gcd** - determination of the greatest common divisor_
 
-> _Brain-prime - prime number definition_
+> _**brain-prime** - prime number definition_
 
-> _Brain-progression - determining the progression of numbers in their sequence_
+> _**brain-progression** - determining the progression of numbers in their sequence_
 
 ## Minimum requirement 
 
@@ -29,6 +29,10 @@
 > _To build use: **make build**_
 
 > _To package install use: **make package-install**_
+
+## Game launch
+
+> _To start the game, type: я **make 'game name'** (game names are in the description)_
 
 
 ## Asciinema:
