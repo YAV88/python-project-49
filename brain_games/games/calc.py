@@ -19,7 +19,7 @@ def calculate(num_one, num_two, sign):
         return correct_answer
 
 
-def game_number_generation():
+def generate_round():
     num_one = randint(MIN_NUMBER, MAX_NUMBER)
     num_two = randint(MIN_NUMBER, MAX_NUMBER)
     sign = choice(OPERATORS)
