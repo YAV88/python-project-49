@@ -32,7 +32,7 @@
 
 ## Game launch
 
-> _To start the game, type: я **make 'game name'** (game names are in the description)_
+> _To start the game, type: **make 'game name'** (game names are in the description)_
 
 
 ## Asciinema:
