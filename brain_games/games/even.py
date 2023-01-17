@@ -9,7 +9,7 @@ def is_even(num):
     return num % 2 == 0
 
 
-def game_number_generation():
+def generate_round():
     num = randint(MIN_NUMBER, MAX_NUMBER)
     correct_answer = 'yes' if is_even(num) else 'no'
-    return num, str(correct_answer)
+    return str(num), correct_answer
