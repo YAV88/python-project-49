@@ -5,9 +5,9 @@ ROUNDS = 3
 
 
 def start_game(game):
-    print("Welcome to the Brain Games!")
+    print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print('Hello,', name + '!')
+    print(f'Hello, {name}!')
     count_rounds = 0
     print(game.DESCRIPTION)
 
@@ -25,4 +25,4 @@ def start_game(game):
                   f"Let's try again, {name}!")
             return
 
-        print('Congratulations,', name + '!')
+    print(f'Congratulations, {name}!')
