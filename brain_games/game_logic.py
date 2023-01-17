@@ -13,7 +13,7 @@ def start_game(game):
 
     while count_rounds < MAX_ROUNDS:
         count_rounds += 1
-        question, correct_answer = game.game_number_generation()
+        question, correct_answer = game.generate_round()
         answer = prompt.string(f'Question: {question} ')
         print(f'Your answer: {answer}')
 
