@@ -9,14 +9,14 @@ STOP_NUMBER = randint(60, 100)  # End number
 LENGTH = 10  # Amount of numbers
 
 
-def progression_generation(start, stop, step):
+def generate_progression(start, stop, step):
     progression = list(range(start, stop, step))[:LENGTH]
     return progression
 
 
-def game_number_generation():
+def generate_round():
     step = randint(MIN_NUMBER_STEP, MAX_NUMBER_STEP)
-    progression = progression_generation(START_NUMBER, STOP_NUMBER, step)
+    progression = generate_progression(START_NUMBER, STOP_NUMBER, step)
     index = randint(0, len(progression) - 1)
     correct_answer = progression[index]
     progression[index] = '..'
