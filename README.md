@@ -1,38 +1,39 @@
-### Hexlet tests and linter status:
+# Brain-games
+
+
 [![Actions Status](https://github.com/YAV88/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/YAV88/python-project-49/actions)
 
-# Brain-games
 
 
 ## Project description
 
-> _The project consists of 5 logical mini-games, which are built on the principle of "question - answer"._
+ _The project consists of 5 logical mini-games, which are built on the principle of "question - answer"._
 
-> _**brain-even** - even number definition_
+ _**brain-even** - even number definition_
 
-> _**brain-calc** - evaluation of arithmetic expressions_
+ _**brain-calc** - evaluation of arithmetic expressions_
 
-> _**brain-gcd** - determination of the greatest common divisor_
+ _**brain-gcd** - determination of the greatest common divisor_
 
-> _**brain-prime** - prime number definition_
+ _**brain-prime** - prime number definition_
 
-> _**brain-progression** - determining the progression of numbers in their sequence_
+ _**brain-progression** - determining the progression of numbers in their sequence_
 
 ## Minimum requirement 
 
-> _Python 3.10_
+ _Python 3.10_
 
 ## Installing
 
-> _To install use: **make install**_
+ _To install use: ```make install```_
 
-> _To build use: **make build**_
+ _To build use: ```make build```_
 
-> _To package install use: **make package-install**_
+ _To package install use: ```make package-install```_
 
 ## Game launch
 
-> _To start the game, type: **make 'game name'** (game names are in the description)_
+ _To start the game, type: ```make 'game name'``` (game names are in the description)_
 
 
 ## Asciinema:
