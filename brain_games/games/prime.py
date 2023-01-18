@@ -2,13 +2,13 @@ from random import randint
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 MIN_NUMBER = 1
-MAX_NUMBER = 100
+MAX_NUMBER = 10
 
 
 def is_prime(num):
-    divider = 2
-    if num >= 1:
+    if num <= 1:
         return False
+    divider = 2
     while num % divider != 0:
         divider += 1
     return divider == num
